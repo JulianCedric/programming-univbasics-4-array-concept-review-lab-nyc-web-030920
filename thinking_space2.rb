@@ -10,4 +10,4 @@ def find_max_value(array)
   
 end
 
-p find_max_value(scale)
+p find_max_value(zig_zag)
