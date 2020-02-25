@@ -20,35 +20,15 @@ def find_element_index(array, value_to_find)
 
 end
 
-def find_max_value(array)
+def find_max_value(array) 
   
+  return array.max 
   
-  
-  array.length.times do |index|
-    
-    if array[index - 1] > array[index] 
-      array[index] = array[index - 1]
-      array.shift 
-    
-    elsif array[index - 1] < array[index]  
-      array[index - 1] = array[index]
-      array.shift 
-      
-    else nil 
-      
-      return array[index-1] 
-    
-    end 
-
-  return array[index - 1]
-    
-  end 
-  
-
-    
-end
+end  
 
 def find_min_value(array)
-  # Add your solution here
+
+  return array.min 
+
 end
 
