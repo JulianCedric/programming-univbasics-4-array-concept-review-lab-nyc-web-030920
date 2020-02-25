@@ -6,4 +6,8 @@ zig_zag = [500,4,1000,5,250]
 
 def find_max_value(array) 
   
+  return array.max 
   
+end
+
+p find_max_value(scale)
